@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelGrid - Мир путешествий</title>
+    <link rel="stylesheet" href="стиль.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1><i class="fas fa-plane-departure"></i> TravelGrid</h1>
+            <p>Откройте для себя мир с нами - лучшие направления и советы путешественникам</p>
+        </header>
+        
+        <nav class="menu">
+            <h2><i class="fas fa-compass"></i> Навигация</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="#"><i class="fas fa-map-marked-alt"></i> Направления</a></li>
+                <li><a href="#"><i class="fas fa-images"></i> Галерея</a></li>
+                <li><a href="#"><i class="fas fa-lightbulb"></i> Советы</a></li>
+                <li><a href="#"><i class="fas fa-suitcase-rolling"></i> Туры</a></li>
+                <li><a href="#"><i class="fas fa-address-book"></i> Контакты</a></li>
+            </ul>
+            
+            <div class="travel-tip">
+                <h3><i class="fas fa-info-circle"></i> Путешественникам</h3>
+                <p>Лучшее время для бронирования - за 3-6 месяцев!</p>
+            </div>
+        </nav>
+        
+        <main class="main">
+            <h2><i class="fas fa-globe-americas"></i> Популярные направления</h2>
+            <p class="intro">Исследуйте самые красивые уголки нашей планеты с TravelGrid. Мы собрали для вас лучшие маршруты и места для отдыха.</p>
+            
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="card-header italy"></div>
+                    <h3><i class="fas fa-pizza-slice"></i> Италия</h3>
+                    <p>Рим, Венеция, Флоренция - погрузитесь в атмосферу истории и искусства.</p>
+                    <div class="card-footer">
+                        <span><i class="fas fa-calendar"></i> Апрель-Октябрь</span>
+                        <span class="price">от 850€</span>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="card-header japan"></div>
+                    <h3><i class="fas fa-torii-gate"></i> Япония</h3>
+                    <p>Сакура, древние храмы и современные технологии в гармонии.</p>
+                    <div class="card-footer">
+                        <span><i class="fas fa-calendar"></i> Март-Май</span>
+                        <span class="price">от 1200€</span>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="card-header bali"></div>
+                    <h3><i class="fas fa-umbrella-beach"></i> Бали</h3>
+                    <p>Тропический рай с пляжами, джунглями и духовными практиками.</p>
+                    <div class="card-footer">
+                        <span><i class="fas fa-calendar"></i> Круглый год</span>
+                        <span class="price">от 650€</span>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="travel-article">
+                <h3><i class="fas fa-newspaper"></i> Советы путешественникам</h3>
+                <p>Путешествие — это не просто перемещение из точки А в точку Б. Это возможность открыть для себя новые культуры, встретить интересных людей и создать воспоминания на всю жизнь. Вот несколько советов для вашего следующего приключения:</p>
+                <ul>
+                    <li>Изучите местные обычаи перед поездкой</li>
+                    <li>Всегда имейте копии важных документов</li>
+                    <li>Попробуйте местную кухню - это часть культурного опыта</li>
+                    <li>Уважайте природу и исторические памятники</li>
+                </ul>
+            </section>
+        </main>
+        
+        <aside class="right">
+            <div class="weather-widget">
+                <h2><i class="fas fa-sun"></i> Погода</h2>
+                <div class="weather-item">
+                    <h3>Рим, Италия</h3>
+                    <p>Сегодня: 24°C <i class="fas fa-sun"></i></p>
+                    <p>Завтра: 22°C <i class="fas fa-cloud-sun"></i></p>
+                </div>
+                <div class="weather-item">
+                    <h3>Токио, Япония</h3>
+                    <p>Сегодня: 18°C <i class="fas fa-cloud"></i></p>
+                    <p>Завтра: 19°C <i class="fas fa-cloud-sun"></i></p>
+                </div>
+            </div>
+            
+            <div class="promo">
+                <h2><i class="fas fa-gift"></i> Спецпредложение</h2>
+                <div class="promo-card">
+                    <h3>Мальдивы</h3>
+                    <p>7 ночей в бунгало над водой</p>
+                    <p class="promo-price">1499€ <span class="old-price">1899€</span></p>
+                    <button class="book-btn">Забронировать</button>
+                </div>
+            </div>
+            
+            <div class="quick-info">
+                <h2><i class="fas fa-clock"></i> Быстрая информация</h2>
+                <div class="info-item">
+                    <i class="fas fa-passport"></i>
+                    <span>Проверьте срок действия паспорта</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-syringe"></i>
+                    <span>Узнайте о необходимых прививках</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>Изучите курс валюты страны</span>
+                </div>
+            </div>
+        </aside>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TravelGrid</h3>
+                    <p>Ваш проводник в мире путешествий с 2010 года</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@travelgrid.ru</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Подпишитесь на новости</h3>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Ваш email">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            
+            <p class="copyright">&copy; 2023 TravelGrid.</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Простой скрипт для кнопки бронирования
+        document.querySelector('.book-btn').addEventListener('click', function() {
+            alert('Спасибо за интерес к нашему спецпредложению! Мы свяжемся с вами в ближайшее время для оформления бронирования.');
+        });
+        
+        // Скрипт для подписки на рассылку
+        document.querySelector('.newsletter button').addEventListener('click', function() {
+            const email = document.querySelector('.newsletter input').value;
+            if(email) {
+                alert('Спасибо за подписку! Проверьте вашу почту для подтверждения.');
+            } else {
+                alert('Пожалуйста, введите ваш email адрес.');
+            }
+        });
+    </script>
+</body>
+</html>
